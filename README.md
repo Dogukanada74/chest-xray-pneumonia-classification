@@ -37,21 +37,19 @@ Two models compared: **ViT-B/16** vs **EfficientNet-B0** — with early stopping
 
 ## 🏗️ Project Structure
 
-```
 chest-xray-pneumonia-classification/
 │
-├── train.py                  # Main training script
-├── models.py                 # build_vit(), build_efficientnet()
-├── dataset.py                # SafeImageFolder, get_dataloaders()
-├── utils.py                  # EarlyStopping, create_writer()
-├── requirements.txt          # Dependencies
+├── project3_fixed.py         # Full training pipeline
 ├── experiment_results.png    # Accuracy curves comparison
 └── README.md
-```
 
 ---
 
 ## ⚙️ Models & Setup
+
+Note: > This project uses going_modular scripts from 
+> [Daniel Bourke's PyTorch Deep Learning course](https://github.com/mrdbourke/pytorch-deep-learning)
+> which are downloaded automatically when running the script.
 
 ### ViT-B/16
 - Pre-trained on ImageNet-21k
@@ -141,5 +139,4 @@ Pillow
 2nd Year Computer Engineering Student  
 Muğla Sıtkı Koçman University  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/dogukanada)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/dogukanada74)
+My LinkedIn: https://www.linkedin.com/in/do%C4%9Fukan-ada-g%C3%BCnter-991677216/
